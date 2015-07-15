@@ -15,7 +15,10 @@
 		6050475A1B57046F0094EFF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605047591B57046F0094EFF3 /* Images.xcassets */; };
 		6050475D1B57046F0094EFF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6050475B1B57046F0094EFF3 /* LaunchScreen.xib */; };
 		605047691B57046F0094EFF3 /* VotrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605047681B57046F0094EFF3 /* VotrTests.m */; };
-		605047751B5708650094EFF3 /* FlameTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 605047741B5708650094EFF3 /* FlameTab@2x.png */; };
+		6050477B1B570BDE0094EFF3 /* LoopTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6050477A1B570BDE0094EFF3 /* LoopTab@2x.png */; };
+		6050477F1B570C3D0094EFF3 /* FlameTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6050477E1B570C3D0094EFF3 /* FlameTab@2x.png */; };
+		605047811B570D7C0094EFF3 /* PersonTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 605047801B570D7C0094EFF3 /* PersonTab@2x.png */; };
+		605047851B570E5F0094EFF3 /* MatchTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 605047841B570E5F0094EFF3 /* MatchTab@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +47,10 @@
 		605047621B57046F0094EFF3 /* VotrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VotrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		605047671B57046F0094EFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		605047681B57046F0094EFF3 /* VotrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VotrTests.m; sourceTree = "<group>"; };
-		605047741B5708650094EFF3 /* FlameTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlameTab@2x.png"; sourceTree = "<group>"; };
+		6050477A1B570BDE0094EFF3 /* LoopTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LoopTab@2x.png"; sourceTree = "<group>"; };
+		6050477E1B570C3D0094EFF3 /* FlameTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlameTab@2x.png"; sourceTree = "<group>"; };
+		605047801B570D7C0094EFF3 /* PersonTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PersonTab@2x.png"; sourceTree = "<group>"; };
+		605047841B570E5F0094EFF3 /* MatchTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MatchTab@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +92,10 @@
 		605047481B57046F0094EFF3 /* Votr */ = {
 			isa = PBXGroup;
 			children = (
-				605047741B5708650094EFF3 /* FlameTab@2x.png */,
+				605047841B570E5F0094EFF3 /* MatchTab@2x.png */,
+				605047801B570D7C0094EFF3 /* PersonTab@2x.png */,
+				6050477E1B570C3D0094EFF3 /* FlameTab@2x.png */,
+				6050477A1B570BDE0094EFF3 /* LoopTab@2x.png */,
 				6050474D1B57046F0094EFF3 /* AppDelegate.h */,
 				6050474E1B57046F0094EFF3 /* AppDelegate.m */,
 				605047501B57046F0094EFF3 /* FirstViewController.h */,
@@ -207,10 +216,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				605047811B570D7C0094EFF3 /* PersonTab@2x.png in Resources */,
 				605047581B57046F0094EFF3 /* Main.storyboard in Resources */,
+				6050477B1B570BDE0094EFF3 /* LoopTab@2x.png in Resources */,
 				6050475D1B57046F0094EFF3 /* LaunchScreen.xib in Resources */,
+				6050477F1B570C3D0094EFF3 /* FlameTab@2x.png in Resources */,
+				605047851B570E5F0094EFF3 /* MatchTab@2x.png in Resources */,
 				6050475A1B57046F0094EFF3 /* Images.xcassets in Resources */,
-				605047751B5708650094EFF3 /* FlameTab@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +438,7 @@
 				6050476E1B57046F0094EFF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6050476F1B57046F0094EFF3 /* Build configuration list for PBXNativeTarget "VotrTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +447,7 @@
 				605047711B57046F0094EFF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
